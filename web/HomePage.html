@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+              
+    </head>
+    <body>
+        <header>
+          <center>
+            <h1>Live Courier Tracking System</h1>
+          </center>
+        </header>
+        <div class="menu-bar">
+          <ul>
+             <li class="active"><i class="fa fa-home"></i>Home</li>
+             <li><i class="fa fa-truck"></i>Track Order</li>
+             <li><i class="fa fa-user"></i>About Us</li>
+             <li><i class="fa fa-question-circle"></i>Help</li>
+          </ul>
+        </div>
+        <div class="content">
+           <br><br><br><br><br><br><br>
+           <a class="i1">  
+             <img src="admin.jpg" alt="\" width="300" heigth="10" ></a>
+           <a class="i2">  
+             <img src="o.svg" alt="\" width="300" heigth="10" ></a>
+           <a class="i3">  
+             <img src="user.svg" alt="\" width="300" heigth="10" ></a>
+            <br>
+           <ul>
+               <a href="AdminLoginForm.html" class="link">
+                   <li>Admin</li></a>
+              <li><a href="#">HeadQuarter</a>
+                 <div class="sub-menu">
+                   <ul>
+                      <li><a href="#">Operator</a></li>
+                      <li><a href="#">Employee</a></li>
+                   </ul> 
+                 </div>
+              </li>
+              <li>User</li>
+            </ul>
+        </div>
+        
+        
+       <style>
+            header{
+               background-color: green;
+               background-size: cover;
+            }
+           .menu-bar{
+               background: rgb(0,100,0);
+               text-align: left;
+            }
+            .menu-bar ul{
+                display: inline-flex;
+                list-style: none;
+                color: #fff;
+            }
+            .menu-bar ul li{
+                width: 120px;
+                margin: 15px;
+                padding: 15px;
+            }
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .active, .menu-bar ul li:hover{
+                background: #2bab0d;
+                border-radius: 3px;
+            }
+            .menu-bar .fa{
+                margin-right: 8px;
+            }
+            .content{
+                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(h1.png);
+                background-size: cover;
+            }
+            .content .i1{
+                 float: left;
+                 padding-left: 100px;
+            }
+            .content .i2{
+                 float: left;
+                 padding-left: 150px;
+            }
+            .content .i3{
+                 float: right;
+                 padding-right: 100px;
+            }
+            .content ul{
+                display: inline-flex;
+                list-style: none;
+                color: #fff;
+            }
+            .content ul li{
+                width: 150px;
+                margin: 15px;
+                padding: 20px 100px 150px 150px;
+                font-size: 25px
+            }
+            .content ul li a{
+                text-decoration: none;
+                color:#fff;
+            }
+            .content ul li:hover{
+                background: green;
+                width: 150px;
+                padding: 20px;
+                height: 20px;
+                border-radius: 3px;
+            }
+            .link{
+               text-decoration: none;
+               color:#fff; 
+            }
+            .sub-menu{
+                display: none;
+            }
+            .content ul li:hover .sub-menu{
+                display : block;
+                position: absolute;
+                background: rgb(0,100,0);
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+            .content ul li:hover .sub-menu ul{
+                display: block;
+                margin: 10px;
+
+            }
+            .content ul li:hover .sub-menu ul li{
+                width: 150px;
+                padding: 10px;
+                border-bottom: 1px dotted #fff;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+            .content ul li:hover .sub-menu ul li:last-child{
+                border-bottom: none;
+            }
+            .content ul li:hover .sub-menu ul li a:hover{
+                color: #b2ff00;
+
+            }
+        </style>
+    </body>
+</html>

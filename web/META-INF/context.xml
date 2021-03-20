@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Internet_Based_Courier_Tracking_System"/>
+<web-app>
+   <servlet>
+      <servlet-name>Admin</servlet-name>
+      <servlet-class>Connection.Adminconnection</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Adminconnection</servlet-name>
+     <url-pattern>/Adminconnection</url-pattern>
+   </servlet-mapping>
+   <welcome-file-list>
+    <welcome-file>AdminLoginForm.html</welcome-file>
+   </welcome-file-list>
+</web-app>
